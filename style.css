@@ -1,0 +1,96 @@
+.styles-of-necklaces-container {
+    margin: 0 10px;
+    box-sizing: border-box;
+  }
+  .styles-of-necklaces-container h2 {
+    font-size: 26px;
+  }
+  .styles-of-necklaces-container h3 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+  }
+  .related-categories-section h3 {
+    text-align: center;
+    font-size: 17px;
+    margin: 0;
+  }
+  .styles-of-necklaces-container p {
+    line-height: 1.5em;
+  }
+  img.styles-of-necklaces-main {
+    width: 100%;
+    height: auto;
+  }
+  .styles-of-necklaces-container a {
+    text-decoration: none;
+    color: black;
+  }
+  img.necklace-style-list {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .related-categories-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .related-styles-necklaces {
+    flex: 1;
+  }
+  .related-styles-necklaces img {
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 640px), and (max-width: 769px) {
+    .styles-of-necklaces-container h1 {
+      margin-left: 30px;
+    }
+    .styles-of-necklaces-container h2 {
+      margin-left: 30px;
+    }
+    img.necklace-style-list {
+      max-width: 450px;
+      height: auto;
+      margin: 60px auto 0 auto;
+      display: block;
+    }
+    .related-styles-necklaces h3 {
+      margin: 18px auto 0 auto;
+    }
+  }
+  
+  @media only screen and (min-width: 770px), and (max-width: 1024px) {
+    .styles-of-necklaces-container {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+    #styles-of-necklaces-list {
+      margin: 50px auto;
+    }
+    img.necklace-style-list {
+      margin-top: 0;
+    }
+    .styles-of-necklaces-container h3:hover {
+      transform: rotate(5deg);
+    }
+    .related-categories-section {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .related-styles-necklaces img:hover {
+      transform: scale(1.1);
+    }
+    img.styles-of-necklaces-main {
+      max-width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+    .styles-of-necklaces-container a {
+      font-size: 22px;
+    }
+  }
+  
